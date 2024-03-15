@@ -1,9 +1,42 @@
-h1{
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
+header {
+    background-color: red;
+}
 
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    height: 100vh;
+}
 
-.fiton[
-    
-]
+.dfc {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+}
+
+aside {
+    background-color: green;
+}
+
+main {
+    background-color: pink;
+}
+
+footer {
+    background-color: black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: 100px 1fr;
+    gap: 2 rem;
+}
+
+.fit {
+    background-color: gray;
+}

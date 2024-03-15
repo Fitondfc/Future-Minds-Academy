@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blanchedalmond;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    height: 100vh;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+
+aside {
+    background-color: pink;
+}
+
+main {
+    background-color: yellow;
+}
+
+footer {
+    background-color: blue;
+}
