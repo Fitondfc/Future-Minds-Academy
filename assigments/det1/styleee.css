@@ -29,3 +29,8 @@ main {
 footer {
     background-color: blue;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

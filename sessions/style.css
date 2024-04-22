@@ -3,40 +3,23 @@
     padding: 0;
 }
 
-header {
+div {
+
+    height: 100p;
     background-color: red;
-}
-
-body {
+    animation: div 2s ease forwards;
     display: grid;
-    grid-template-rows: 100px 1fr 50px;
-    height: 100vh;
-}
 
-.dfc {
-    display: grid;
-    grid-template-columns: 100px 1fr 100px;
-}
-
-aside {
-    background-color: green;
-}
-
-main {
-    background-color: pink;
-}
-
-footer {
-    background-color: black;
-}
-
-main {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: 100px 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 2 rem;
 }
 
-.fit {
-    background-color: gray;
+div .card {
+    background-color: blue;
+}
+
+@media (max-width:1000px) {
+    div {
+        dislay
+    }
 }
