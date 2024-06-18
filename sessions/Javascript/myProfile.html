@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+</head>
+
+<body>
+    <h1 id="Ninja">My Ninja</h1>
+    <div id="foto">
+        <img src="./stickers/avatar.png" alt="">
+    </div>
+
+    <p class="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis ex esse illo dolores fugit in
+        asperiores
+        eveniet est. Ipsa nihil doloremque rerum nesciunt excepturi? Sint amet autem aut repellat.
+
+    </p>
+
+    <button onclick="loadAvocado()">AVOCADO</button>
+
+    <button onclick="loadNinja()">Ninja</button>
+
+
+
+    <script>
+
+        function loadAvocado() {
+            const Ninja = document.querySelector('#Ninja');
+            Ninja.textContent = 'Ninja';
+
+            const Bio = document.querySelector('.bio');
+            Bio.textContent = 'I love ninja';
+
+
+            const foto = document.querySelector('#foto');
+            foto.innerHTML = ' <img src="./stickers/person.png" alt="">'
+        }
+
+        function loadNinja() {
+            const Ninja = document.querySelector('#Ninja');
+            Ninja.textContent = 'Fiton Kadriu';
+
+            const Bio = document.querySelector('.bio');
+            Bio.textContent = 'I love Javascript';
+
+
+            const foto = document.querySelector('#foto');
+            foto.innerHTML = ' <img src="./stickers/person.png" alt="">'
+        }
+    </script>
+</body>
+
+</html>
